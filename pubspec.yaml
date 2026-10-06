@@ -1,0 +1,75 @@
+name: ola_app_1
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0+1
+
+environment:
+  sdk: ^3.12.2
+
+dependencies:
+
+  flutter:
+    sdk: flutter
+  flutter_map: ^8.3.2
+  latlong2: ^0.9.1
+  http: ^1.0.0
+  geolocator: ^14.0.2
+  geocoding: ^5.0.0
+  video_player: ^2.13.0
+  video_player_win: ^3.2.2
+  flutter_svg: ^2.2.0
+  firebase_core: ^4.14.0
+  cloud_firestore: ^6.9.0
+  firebase_auth: ^6.7.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  
+
+flutter:
+  uses-material-design: true
+  assets:
+      - assets/img/olalogo.png
+      - assets/videos/olavideo.mp4
+      - assets/img/background image.jpg
+      - assets/img/scooty.png
+      - assets/img/citiy cover.webp
+      - assets/img/barchat.webp
+      - assets/img/bold.webp
+      - assets/img/autocar.png
+      - assets/img/foranydistance.png
+      - assets/img/foranyduration.png
+      - assets/videos/makinginnocation.mp4
+      - assets/videos/innovation1.mp4
+      - assets/img/buynow.png
+      - assets/img/1.png
+      - assets/img/2.png
+      - assets/img/3.png
+      - assets/img/ride.png
+      - assets/img/insurance.png
+      - assets/img/daily.png
+      - assets/img/womens.png
+      - assets/img/donating.png
+      - assets/img/mother-son.png
+      - assets/img/ola.webp
+      - assets/img/pli-agreement.png
+      - assets/img/ola-to-invest.png
+      - assets/img/indigenous-cell.png
+      - assets/img/olacab.png
+      - assets/img/ola-driver.png
+      - assets/img/insta.png
+      - assets/img/utube.png
+      - assets/img/twitter.png
+      - assets/img/bookolaimg.webp
+      - assets/img/manbookola.png
+      - assets/img/outstation.png
+      - assets/img/rental.png
+      - assets/img/locationoutline.webp
+      - assets/img/ind.jpg
+      - assets/img/slidebar.png
+      - assets/img/ola.png
+      - assets/img/auto.png
+     
+
