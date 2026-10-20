@@ -34,7 +34,13 @@ jobs:
         run: flutter analyze --no-fatal-infos --no-fatal-warnings
 
       - name: Run tests
-        run: flutter test
+        run: |
+          if (Test-Path test) {
+            flutter test
+          } else {
+            Write-Host "No test directory found. Skipping tests."
+          }
+        shell: pwsh
 
       - name: Build APK
         run: flutter build apk --debug
